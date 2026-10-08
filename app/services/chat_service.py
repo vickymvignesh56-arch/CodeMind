@@ -1,9 +1,9 @@
-from app.llm.ollama_client import OllamaClient
+from app.agent.agent import Agent
 
 class ChatService:
     def __init__(self) -> None:
-        self.ollama = OllamaClient()
+        self.agent =Agent()
 
     async def chat(self, message: str) -> str:
-        response = await self.ollama.chat(message)
+        response = await self.agent.chat(message)
         return response
