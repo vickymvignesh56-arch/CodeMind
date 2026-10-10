@@ -1,0 +1,2 @@
+# CodeMind
+AI coding assistant
