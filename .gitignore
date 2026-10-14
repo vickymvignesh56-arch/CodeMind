@@ -35,3 +35,10 @@ dist/
 
 # Ollama
 # Local models should NOT be committed
+# CodeMind VS Code extension
+codemind-ai/node_modules/
+codemind-ai/out/
+codemind-ai/*.vsix
+
+# Keep extension workspace configuration
+!codemind-ai/.vscode/

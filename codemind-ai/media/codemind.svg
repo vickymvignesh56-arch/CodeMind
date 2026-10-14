@@ -1,0 +1,51 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#168BFF"/>
+      <stop offset="100%" stop-color="#4338FF"/>
+    </linearGradient>
+  </defs>
+
+  <g
+    fill="none"
+    stroke="url(#brainGradient)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <!-- Left brain hemisphere -->
+    <path d="M62 24
+      C53 12 37 17 35 29
+      C22 27 16 39 21 49
+      C10 56 12 72 22 78
+      C18 91 29 102 41 99
+      C45 111 57 113 63 103
+      L63 25"/>
+
+    <!-- Right brain hemisphere -->
+    <path d="M65 24
+      C74 12 90 17 92 29
+      C105 27 111 39 106 49
+      C117 56 115 72 105 78
+      C109 91 98 102 86 99
+      C82 111 70 113 65 103
+      L65 25"/>
+
+    <!-- Circuit traces -->
+    <path d="M25 45 H39 L48 36"/>
+    <circle cx="51" cy="33" r="3.5"/>
+
+    <path d="M22 62 H43"/>
+    <circle cx="48" cy="62" r="3.5"/>
+
+    <path d="M25 80 H39 L48 89"/>
+    <circle cx="51" cy="92" r="3.5"/>
+
+    <!-- Code symbol -->
+    <path d="M82 48 L72 59 L82 70"/>
+    <path d="M96 48 L106 59 L96 70"/>
+    <path d="M92 44 L86 74"/>
+  </g>
+</svg>
